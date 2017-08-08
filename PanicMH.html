@@ -1,256 +1,324 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/smilies/smi-3/smi203.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2010/11/04/hoho-angry-anime-smiley.html" target="_blank" title="Hoho Angry Anime Smiley"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Hoho Angry Anime Smiley" style="position:absolute; top: 0px; right: 0px;" /></a>
-   <title> PAN!C</title>
-<style>
-.container {
-    overflow: hidden;
-    font-family: Arial;
-}
-
-.container a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-}
-
-.container a:hover, .dropdown:hover .dropbtn {
-  background-color: #e698e5;
+  <head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="happymind.js"></script>
+  </head>
+  <style>
+body {
+  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
   color: purple;
+  background-color: #ffe6ff;
+  padding: 50px;
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 50px;
+  font-size:15px;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #e600e6;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    width: 10px;
-    padding-left: 10px;
-    padding-right: 0px;
-}
+H1{
+  background-color: oldlace;
+  width:300px;
+  border: 8px double hotpink;
+  padding: 15px;
+  margin:5px;
+  text-align: center;
 
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
+}
+H2{
+  background-color: oldlace;
+  width:1200px;
+  border: 8px double hotpink;
+  padding: 15px;
+  margin:5px;
+  text-align: center;
+
+}
+H6{
+  background-color: #ffe6ff;
+  width:1200px;
+  height:300px;
+  border: 8px double #ffe6ff;
+  padding: 15px;
+  margin:5px;
+  text-align: center;
+}
+.button {
+    background-color: hotpink;
+    border: solid violet;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
     text-decoration: none;
-    display: block;
-    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
-
-.dropdown-content a:hover {
-    background-color: #ddd;
+.new{
+  background-color: oldlace;
+  width:1200px;
+  border: 8px double hotpink;
+  padding: 15px;
+  margin:5px;
+  text-align: center;
+  font-size: 30px;
 }
-
-.show {
-    display: block;
-}
-div
-.reconstruct {
- background-color: ivory;
- width: 300px;
- border: 4px #66a3ff;
- border-style: solid;
-}
-.bruh {
- background-color: ivory;
-   width: 260px;
-   border: 10px double #66a3ff;
-   padding: 15px;
-   margin: 5px;
-}
-.lol {
- background-color: ivory;
-   width: 260px;
-   border: 10px double #66a3ff;
-   padding: 15px;
-   margin: 5px;
- }
- h1 {
-   text-shadow: 2px 2px purple;
-}
-.haha {
- text-shadow: 2px 2px purple;
+.lol{
+  background-color: oldlace;
+  width:900px;
+  height: 140px;
+  border: 8px double hotpink;
+  padding: 0px 0px 0px 0px;
+  margin:0px;
+  text-align: center;
+  font-size: 20px;
 }
 .ok{
+  background-color: oldlace;
+  width:1200px;
+  border: 8px double hotpink;
+  padding: 15px;
+  margin:5px;
+  text-align: center;
+  font-size: 30px;
+}
+.hiddenfirst-checkbox{
+  margin-left: 45px;
+}
 
- color: #ff4da6;
+.hiddensecond-checkbox{
+  margin-left: 45px;
 }
- .non {
-   background-color: ivory;
-     width: 247px;
-     border: 10px double #66a3ff;
-     padding: 15px;
-     margin: 5px;
-   }
-   .me {
-     background-color: OldLace;
-       width: 700px;
-       border: 8px double hotpink;
-       padding: 15px;
-       margin: 5px;
-   }
-.navbar {
- border: 3px solid #4d79ff;
- overflow: hidden;
- overflow-style:marquee,panner;
- background-color: #b3c6ff
 
-
-}
-.navbar a {
- float: left;
- display: block;
- color: white;
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
- font-size: 17px;
-}
-.navbar a:hover {
- background-color: #e698e5;
- color: purple;
-}
-.navbar a.active {
- background-color: #db4dff;
-    color: white;
+.hiddenthird-checkbox{
+  margin-left: 45px;
 }
 
 
-body {
- color:#ff1a8c;
-}
-body {background-image:url(bg.png);
+.hiddenfourth-checkbox{
+  margin-left: 45px;
 }
 
 
+.hiddenfifth-checkbox{
+  margin-left: 45px;
+}
 
-H3 {color: Ivory;
- background-color: ivory;
-padding:  15px
-border:3px;
-border-style: solid;
-border-color: #4d79ff;
 
+.hiddensixth-checkbox{
+  margin-left: 45px;
 }
-P {color:#cc3399;
- text-indent: 50px;
- background-color: ivory;
-padding:  15px
-border:3px;
-border-style: solid;
-border-color: #db4dff;
-padding:1em;
+
+
+.hiddenseventh-checkbox{
+  margin-left: 45px;
 }
-H2 {
- text-indent: 50px;
+
+
+/*.hiddeneighth-checkbox{
+  margin-left: 45px;
 }
+
+
+.hiddenninth-checkbox{
+  margin-left: 45px;
+}
+
+
+.hiddententh-checkbox{
+  margin-left: 45px;
+}
+
+
+.hidden11-checkbox{
+  margin-left: 45px;
+}
+
+
+.hidden12-checkbox{
+  margin-left: 45px;
+}
+
+
+.hidden13-checkbox{
+  margin-left: 45px;
+}
+
+
+.hidden14-checkbox{
+  margin-left: 45px;
+}
+
+
+.hidden15-checkbox{
+  margin-left: 45px;
+}*/
+
 
 </style>
+<body>
 
- </head>
- <body>
-
-
+  <center>
 
 
- <center>
+</center>
+<div class="lol">
+  <p>feel free to check all the boxes that apply to your situation and then click the submit button please</p></div>
+    <form>
+      <input onclick="showfirsthiddencheckboxes()" onclick="showfirsthiddencheckboxes()" class="single-checkbox" type="checkbox" name="negativefeeling" value="afraid" Id="afraid"> I feel afraid <br>
+      <div class="hiddenfirst-checkbox">
+        <input class="hiddenfirst-checkbox" type="checkbox" > anxious<br>
+        <input class="hiddenfirst-checkbox" type="checkbox" > shakey<br>
+        <input class="hiddenfirst-checkbox" type="checkbox" > restless<br>
+        <input class="hiddenfirst-checkbox" type="checkbox" > threatened<br>
+      </div>
 
 
+      <input onclick="showsecondhiddencheckboxes()" class="single-checkbox" type="checkbox" name="negativefeeling" value="confused"  Id="confused"> I feel confused<br>
+      <div class="hiddensecond-checkbox">
+        <input class="hiddensecond-checkbox" type="checkbox" > indescisive<br>
+        <input class="hiddensecond-checkbox" type="checkbox" > dissilusioned<br>
+        <input class="hiddensecond-checkbox" type="checkbox" > distrustful<br>
+        <input class="hiddensecond-checkbox" type="checkbox" > uneasy<br>
 
-</img>
+      </div>
 
+      <input onclick="showthirdhiddencheckboxes()"class="single-checkbox" type="checkbox" name="negativefeeling" value="helpless" Id="helpless" > I feel helpless<br>
+      <div class="hiddenthird-checkbox">
+        <input class="hiddenthird-checkbox" type="checkbox" > useless<br>
+        <input class="hiddenthird-checkbox" type="checkbox" > hesitant<br>
+        <input class="hiddenthird-checkbox" type="checkbox" > distressed<br>
+        <input class="hiddenthird-checkbox" type="checkbox" > dominated<br>
 
-
-
-<img src="together.jpg" width="1350" height="225" padding-right:0px>
-</img>
-
-
-</H1>
-<div class="container">
-<div class="navbar">
-  <a  href="HomeMH.html">Home</a>
-     <a href="aboutMH.html">About</a>
-     <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Mental Health</button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="depression.html">Depression</a>
-      <a href="Anxiety.html">Anxiety</a>
-      <a href="schizophrenia.html">Schizophrenia</a>
-      <a href="PTSD.html"><font color="#e600e6">___</font>PTSD<font color="#e600e6">___</font>  </a>
-      <a href="OCD.html"><font color="#e600e6">___</font>OCD<font color="#e600e6">___</font></a>
-      <a href="bipolar.html"><font color="#e600e6">___</font>BPD<font color="#e600e6">___</font></a>
-      <a href="ADHD.html"><font color="#e600e6">___</font>ADHD<font color="#e600e6">___</font></a>
-
-
-
-    </div>
-
-  </div>
-<a href="stories.html">Stories</a>
-  <a href="zipcodestuff.html">COBA</a>
-  <a class="active" href="PanicMH.html">Pan!c</a>
-
-</div class="navbar">
-
-<em>
-<H3><div class= "ok">"HEALTH ADVOCATES PURSUING PROBLEMS YOU MENTALLY INQUIRE NIGHTLY & DAILY"</div class= "ok"></H3></em>
+      </div>
 
 
 
+      <input onclick="showfourthhiddencheckboxes()"class="single-checkbox" type="checkbox" name="negativefeeling" value="angry" Id="angry"> I feel angry<br>
+      <div class="hiddenfourth-checkbox">
+        <input class="hiddenfourth-checkbox" type="checkbox" > insulting<br>
+        <input class="hiddenfourth-checkbox" type="checkbox" > resentful<br>
+        <input class="hiddenfourth-checkbox" type="checkbox" > provoked<br>
+        <input class="hiddenfourth-checkbox" type="checkbox" > Triggered<br>
+
+      </div>
+
+      <input onclick="showfifthhiddencheckboxes()"class="single-checkbox" type="checkbox" name="negativefeeling" value="indifferent" Id="indifferent"  > I feel indifferent<br>
+      <div class="hiddenfifth-checkbox">
+        <input class="hiddenfifth-checkbox" type="checkbox" > dull<br>
+        <input class="hiddenfifth-checkbox" type="checkbox" > nonchalant<br>
+        <input class="hiddenfifth-checkbox" type="checkbox" > disinterested<br>
+        <input class="hiddenfifth-checkbox" type="checkbox" > lifeless<br>
+
+      </div>
+
+
+      <input onclick="showsixthhiddencheckboxes()"class="single-checkbox" type="checkbox" name="negativefeeling" value="depressed" Id="depressed"  > I feel depressed<br>
+      <div class="hiddensixth-checkbox">
+        <input class="hiddensixth-checkbox" type="checkbox" > powerless<br>
+        <input class="hiddensixth-checkbox" type="checkbox" > dissattisfied<br>
+        <input class="hiddensixth-checkbox" type="checkbox" > dispair<br>
+        <input class="hiddensixth-checkbox" type="checkbox" > sense of loss<br>
+      </div>
+
+
+
+      <input onclick="showseventhhiddencheckboxes()"class="single-checkbox" type="checkbox" name="negativefeeling" value="hurt" Id="hurt"  > I feel hurt<br>
+      <div class="hiddenseventh-checkbox">
+        <input class="hiddenseventh-checkbox" type="checkbox" > crushed<br>
+        <input class="hiddenseventh-checkbox" type="checkbox" > tormented<br>
+        <input class="hiddenseventh-checkbox" type="checkbox" > afflicted<br>
+        <input class="hiddenseventh-checkbox" type="checkbox" > alienated<br>
+      </div>
+
+      <a href="otherhalf.html" class="button">CLICK TO SUBMIT </a>
+
+<h6>
+
+
+
+<!--
+
+               <p> choose how you want to feel</p>
+
+                      <input onclick="showeighthhiddencheckboxes()" onclick="showeighthhiddencheckboxes()" class="single-checkbox" type="checkbox" name="positivefeeling" value="love" Id="love"> I want to feel love<br>
+                      <div class="hiddeneighth-checkbox">
+                        <input class="hiddeneighth-checkbox" type="checkbox" > loving<br>
+                        <input class="hiddeneighth-checkbox" type="checkbox" > affectionate<br>
+                        <input class="hiddeneighth-checkbox" type="checkbox" > touched<br>
+                        <input class="hiddeneighth-checkbox" type="checkbox" > comforted<br>
+                      </div>
+
+                      <input onclick="showninthhiddencheckboxes()" onclick="showninthhiddencheckboxes()" class="single-checkbox" type="checkbox" name="positivefeeling" value="open" Id="open"> I want to feel open<br>
+                      <div class="hiddenninth-checkbox">
+                        <input class="hiddenninth-checkbox" type="checkbox" > sympathetic<br>
+                        <input class="hiddenninth-checkbox" type="checkbox" > intrigued<br>
+                        <input class="hiddenninth-checkbox" type="checkbox" > absorbed<br>
+                        <input class="hiddenninth-checkbox" type="checkbox" > curious<br>
+                      </div>
+
+                      <input onclick="showtenthhiddencheckboxes()" onclick="showtenthhiddencheckboxes()" class="single-checkbox" type="checkbox" name="positivefeeling" value="interested" Id="interested"> I want to feel interested<br>
+                      <div class="hiddententh-checkbox">
+                        <input class="hiddententh-checkbox" type="checkbox" > eager<br>
+                        <input class="hiddententh-checkbox" type="checkbox" > enthusiastic<br>
+                        <input class="hiddententh-checkbox" type="checkbox" > optimistic<br>
+                        <input class="hiddententh-checkbox" type="checkbox" > hopeful<br>
+                      </div>
+
+                      <input onclick="show11hiddencheckboxes()" onclick="show11hiddencheckboxes()" class="single-checkbox" type="checkbox" name="positivefeeling" value="positive" Id="positive"> I want to feel positive<br>
+                      <div class="hidden11-checkbox">
+                        <input class="hidden11-checkbox" type="checkbox" > impulsive<br>
+                        <input class="hidden11-checkbox" type="checkbox" > certain<br>
+                        <input class="hidden11-checkbox" type="checkbox" > rebellious<br>
+                        <input class="hidden11-checkbox" type="checkbox" > tenacious<br>
+                      </div>
+
+                      <input onclick="show12hiddencheckboxes()" onclick="show12hiddencheckboxes()" class="single-checkbox" type="checkbox" name="positivefeeling" value="strong" Id="strong"> I want to feel strong<br>
+                      <div class="hidden12-checkbox">
+                        <input class="hidden12-checkbox" type="checkbox" > impulsive<br>
+                        <input class="hidden12-checkbox" type="checkbox" > certain<br>
+                        <input class="hidden12-checkbox" type="checkbox" > rebellious<br>
+                        <input class="hidden12-checkbox" type="checkbox" > tenacious<br>
+                      </div>
+
+
+                      <input onclick="show13hiddencheckboxes()" onclick="show13hiddencheckboxes()" class="single-checkbox" type="checkbox" name="positivefeeling" value="happy" Id="happy"> I want to feel happy<br>
+                      <div class="hidden13-checkbox">
+                        <input class="hidden13-checkbox" type="checkbox" > blessed<br>
+                        <input class="hidden13-checkbox" type="checkbox" > delighted<br>
+                        <input class="hidden13-checkbox" type="checkbox" > cheerful<br>
+                        <input class="hidden13-checkbox" type="checkbox" > sunny<br>
+                      </div>
+
+                      <input onclick="show14hiddencheckboxes()" onclick="show14hiddencheckboxes()" class="single-checkbox" type="checkbox" name="positivefeeling" value="good" Id="good"> I want to feel good<br>
+                      <div class="hidden14-checkbox">
+                        <input class="hidden14-checkbox" type="checkbox" > comfortable<br>
+                        <input class="hidden14-checkbox" type="checkbox" > content<br>
+                        <input class="hidden14-checkbox" type="checkbox" > relaxed<br>
+                        <input class="hidden14-checkbox" type="checkbox" > reassured<br>
+                      </div>
+
+
+                      <input onclick="show15hiddencheckboxes()" onclick="show15hiddencheckboxes()" class="single-checkbox" type="checkbox" name="positivefeeling" value="alive" Id="alive"> I want to feel alive<br>
+                      <div class="hidden15-checkbox">
+                        <input class="hidden15-checkbox" type="checkbox" > playful<br>
+                        <input class="hidden15-checkbox" type="checkbox" > liberated<br>
+                        <input class="hidden15-checkbox" type="checkbox" > energetic<br>
+                        <input class="hidden15-checkbox" type="checkbox" > spirited<br>
+                      </div>
+          -->
 
 
 
 
+  
+            <script>
+            function myFunction() {
+                document.getElementById("myForm").reset();
+            }
+            </script>
 
- <script>
- /* When the user clicks on the button,
- toggle between hiding and showing the dropdown content */
- function myFunction() {
-     document.getElementById("myDropdown").classList.toggle("show");
- }
-
- // Close the dropdown if the user clicks outside of it
- window.onclick = function(event) {
-   if (!event.target.matches('.dropbtn')) {
-
-     var dropdowns = document.getElementsByClassName("dropdown-content");
-     var i;
-     for (i = 0; i < dropdowns.length; i++) {
-       var openDropdown = dropdowns[i];
-       if (openDropdown.classList.contains('show')) {
-         openDropdown.classList.remove('show');
-       }
-     }
-   }
- }
- </script>
-
- </body>
-
-
-
-
+    </form>
+</body>
 </html>
